@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.button-container{
+
+}
+body {
+    background-image: radial-gradient(#c39f76 56%,#0000 57%);
+    background-size: 100px 100px;
+}
+
+button{
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    font-size: 4vmin;
+    margin: 50px;
+    padding: 20px;
+}
+button:hover{
+    transform: scale(1.1);
+}
